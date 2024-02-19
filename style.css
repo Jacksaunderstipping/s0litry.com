@@ -54,7 +54,7 @@
 .photo img{
     width: 105%;
     height: 105%;
-    border-radius: 5px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
