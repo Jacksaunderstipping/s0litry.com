@@ -5,6 +5,7 @@
     text-decoration: none;
     background-color: black;
     color: orange;
+    font-family:"UnifrakturCook"
     
 }
 
@@ -40,21 +41,27 @@
     padding: 40px 0;
 }
 
+.title{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
 .photo_gallery{
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .column{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
 .photo img{
     width: 105%;
     height: 105%;
-    border-radius: 10px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
